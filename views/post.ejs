@@ -1,0 +1,11 @@
+<%- include('partials/header'); -%>
+    <h1>
+        <%= post.title %> <small class="date">
+                <%= post.date %>
+            </small>
+            <h6 class="author">~By <%= post.author %></h6>
+    </h1>
+    <p>
+        <%= post.post %>
+    </p>
+<%- include('partials/footer'); -%>
